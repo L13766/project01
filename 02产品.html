@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!--根据设备的宽度调整页面的缩放比例-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>航拍无人机</title>
+        <!--引入bootstrap的css文件-->
+        <link  rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css"/>
+        <!--引入js-->
+        <!-- Bootstrap的所有JS组件都是依赖jQuery的，所以必须放在前边-->
+        <script src="js/jquery-3.4.1.js"></script>
+        <!-- 加载 Bootstrap 的所有 JavaScript 插件。你也可以根据需要只加载单个插件。-->
+        <script src="bootstrap/js/bootstrap.min.js"></script>
+    </head>
+<body>
+    <div class="containe">
+        <!--导航div-->
+        <div class="row">
+            <nav class="navbar navbar-inverse">
+                <form class="navbar-form navbar-left" role="search">
+                    <div class="form-group">
+                      <input type="text" class="form-control" placeholder="Search">
+                    </div>
+                    <button type="submit" class="btn btn-default">搜索产品</button>
+                  </form>
+        </div>
+        <!--轮播div-->
+        <div class="row">
+            
+            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                  <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                  <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                  
+                </ol>
+              
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner" role="listbox">
+                  <div class="item active">
+                    <img src="img/4.jpg" alt="...">
+                    <div class="carousel-caption">
+                        <h3>航拍无人机系列</h3>
+                        <p>航拍你视界</p>
+                    </div>
+                  </div>
+    
+                  <div class="item">
+                    <img src="img/5.jpg" alt="...">
+                    <div class="carousel-caption">
+                        <h3>航拍无人机系列</h3>
+                        <p>航拍你视界</p>
+                    </div>
+                  </div>
+    
+                  
+                  
+                </div>
+              
+                <!-- Controls -->
+                <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                  <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                  <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+        
+        <!--热门商品div-->
+        <div class="row">
+            <div class="page-header" style="color:black;">
+                <div class="container-fluid"><!--这点非常重要，因为没有这个字体就会冒出去，宽度与浏览器宽度一致并且没有圆角，这个是百分百不留白-->
+                <h1>热门商品<small>Hot Items</small></h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="list-group">
+                        <button type="button" class="list-group-item">DJI Mavic 系列</button>
+                        <button type="button" class="list-group-item">DJI Air 系列</button>
+                        <button type="button" class="list-group-item">DJI Mini 系列</button>
+                        <button type="button" class="list-group-item">DJI FPV 系列</button>
+                        <button type="button" class="list-group-item">Phantom 系列</button>
+                        <button type="button" class="list-group-item">Inspire 系列</button>
+                        <button type="button" class="list-group-item">Spark 系列</button>
+                        <button type="button" class="list-group-item">RC 系列</button>
+                        
+                      </div>
+                </div>
+                <div class="col-md-9">
+                    <div class="row">
+                        
+                        <div class="col-sm-6 col-md-6">
+                          <div class="thumbnail">
+                            <img src="img/17.png" alt="...">
+                            <div class="caption">
+                              <h3>DJI Mavic 3</h3>
+                              <p>Mavic 3 是 DJI 新一代旗舰航拍无人机，配备哈苏 4/3 CMOS 相机，成就传世佳作；支持全向避障，为你带来畅爽飞行体验；续航时间可达 46 分钟，图传距离可达 15 公里。它的每一项提升，都为航拍确立了全新标准。</p>
+                              <p><a href="#" class="btn btn-primary" role="button">点击购买</a> <a href="#" class="btn btn-default" role="button">了解更多</a></p>
+                            </div>
+                          </div>
+                        </div>
+                
+                        <div class="col-sm-6 col-md-6">
+                          <div class="thumbnail">
+                            <img src="img/18.png" alt="...">
+                            <div class="caption">
+                              <h3>御 Mavic 2</h3>
+                              <p>“御”Mavic 2 是新一代消费级航拍旗舰，更是汇聚大疆创新全方位技术演进，以及对航拍影像深刻理解的倾力之作。“御”Mavic 2，只为成就理想创作。大疆“御”Mavic 2 分为 Mavic 2 专业版和Mavic 2 变焦版。</p>
+                              <p><a href="#" class="btn btn-primary" role="button">点击购买</a> <a href="#" class="btn btn-default" role="button">了解更多</a></p>
+                            </div>
+                          </div>
+                        </div>
+                
+                        <div class="col-sm-6 col-md-6">
+                          <div class="thumbnail">
+                            <img src="img/19.png" alt="...">
+                            <div class="caption">
+                              <h3>御 Mavic Pro</h3>
+                              <p>7公里高清图传、4K航拍相机、27分钟的续航、可折叠机身。</p>
+                              <p><a href="#" class="btn btn-primary" role="button">点击购买</a> <a href="#" class="btn btn-default" role="button">了解更多</a></p>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="col-sm-6 col-md-6">
+                            <div class="thumbnail">
+                              <img src="img/20.png" alt="...">
+                              <div class="caption">
+                                <h3>御 Mavic Pro 铂金版</h3>
+                                <p>更长续航和更好的降噪表现，视觉更出彩，体验更出色。</p>
+                                <p><a href="#" class="btn btn-primary" role="button">点击购买</a> <a href="#" class="btn btn-default" role="button">了解更多</a></p>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="col-sm-6 col-md-6">
+                            <div class="thumbnail">
+                              <img src="img/21.png" alt="...">
+                              <div class="caption">
+                                <h3>DJI 带屏遥控器</h3>
+                                <p>DJI 带屏遥控器集便携遥控和高亮显示于一身，专为户外航拍设计，在阳光直射下也能呈现清晰影像，结合内置的 DJI GO 4 app ，让你摆脱使用普通移动设备时繁杂信息的干扰，轻松到手即飞；全新 SkyTalk 功能，可实现实时直播，全面提升飞行、拍摄体验。</p>
+                                <p><a href="#" class="btn btn-primary" role="button">点击购买</a> <a href="#" class="btn btn-default" role="button">了解更多</a></p>
+                              </div>
+                            </div>
+                          </div>
+                
+                      </div> 
+                </div>
+            </div>
+        </div>
+
+          
+    </div>
+
+    <!--foot div-->
+    <nav class="navbar navbar-inverse">
+    <footer >
+      
+      <div class="container-fluid">
+        <div class="row">
+         
+          <div class="col-xs-6 col-md-3">
+            <h3 class="text-muted">热门产品分类</h3>
+            <ul class="list-unstyled text-small">
+              <li><a class="text-muted" href="#">消费级</a></li>
+              <li><a class="text-muted" href="#">专业级</a></li>
+              <li><a class="text-muted" href="#">行业级</a></li>
+              <li><a class="text-muted" href="#">系统模块</a></li>
+            </ul>
+          </div>
+          <div class="col-xs-6 col-md-3">
+            <h3 class="text-muted">购买渠道</h3>
+            <ul class="list-unstyled text-small">
+              <li><a class="text-muted" href="#">官方商城</a></li>
+              <li><a class="text-muted" href="#">官方旗舰店</a></li>
+              <li><a class="text-muted" href="#">官方直营店</a></li>
+              <li><a class="text-muted" href="#">线下门店</a></li>
+              <li><a class="text-muted" href="#">行业应用购买渠道</a></li>
+              <li><a class="text-muted" href="#">农业植保机代理商</a></li>
+              <li><a class="text-muted" href="#">专业影像代理商</a></li>
+              <li><a class="text-muted" href="#">大疆商城 App</a></li>
+              
+            </ul>
+          </div>
+          <div class="col-xs-6 col-md-3">
+            <h3 class="text-muted">帮助与支持</h3>
+            <ul class="list-unstyled text-small">
+              <li><a class="text-muted" href="#">产品支持</a></li>
+              <li><a class="text-muted" href="#">服务申请与信息支持</a></li>
+              <li><a class="text-muted" href="#">帮助中心</a></li>
+              <li><a class="text-muted" href="#">售后服务政策</a></li>
+              <li><a class="text-muted" href="#">下载中心</a></li>
+              <li><a class="text-muted" href="#">安全与隐私</a></li>
+            </ul>
+          </div>
+          <div class="col-xs-6 col-md-3">
+            <h3 class="text-muted">探索精彩大疆</h3>
+            <ul class="list-unstyled text-small">
+              <li><a class="text-muted" href="#">新闻中心</a></li>
+              <li><a class="text-muted" href="#">精彩活动</a></li>
+              <li><a class="text-muted" href="#">STEAM教育</a></li>
+              <li><a class="text-muted" href="#">航拍无人机</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      </footer>
+      <hr>
+      <div class="text-center text-muted">Copyright © 2022 DJI 大疆创新 版权所有
+        粤ICP备12022215号
+      <br>
+      本网站直接或间接向消费者推销商品或者服务的商业宣传均属于“广告”（包装及参数、售后保障等商品信息除外）
+      </div>
+      
+</body>
+</html>
