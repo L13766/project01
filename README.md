@@ -1,5 +1,5 @@
 # project01
-## 一个无人机网站项目demo，学习bootstrap
+## 项目demo
 网页设计为响应式网站，支持移动端访问，使用了bootstrap框架（bootstrap3），使用bootstrap的库需要先引入jQuery的库。
 ## 主页页面的设计与实现
 ![image](https://github.com/L13766/project01/blob/master/img01/20220811230552.png)
